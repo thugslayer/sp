@@ -5,7 +5,7 @@ void main()
 {
  FILE *fp1, *fp2;
  fp1 = fopen("ip.txt", "r");
- fp2 = fopen("output.txt", "w");
+ fp2 = fopen("op.txt", "w");
  if (fp1 == NULL || fp2 == NULL) {
  printf("Error opening file(s)\n");
  return;
