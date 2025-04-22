@@ -1,0 +1,7 @@
+lex yactest.l
+bison -dy yactest.y
+gcc lex.yy.c y.tab.c -w
+./a.out
+
+enter expression: 24*3 #accepted
+enter expression: *3-4 #rejected
