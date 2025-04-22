@@ -1,0 +1,4 @@
+gcc gen.c -o gen
+./gen
+
+cat op.txt
