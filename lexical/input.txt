@@ -1,4 +1,4 @@
-gcc lex.c -o lex
+gcc -o lex lex.c
 ./lex
 
 Enter filename: string.txt
