@@ -1,0 +1,8 @@
+gcc op.c -o op
+./op
+
+Enter string:
+i*(i+i)*i  #accepted
+
+Enter string:
+i*(i+) #rejected
