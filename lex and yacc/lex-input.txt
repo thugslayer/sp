@@ -1,4 +1,4 @@
-lex gram.l
+lex lexgram.l
 gcc lex.yy.c -ll
 ./a.out
 
