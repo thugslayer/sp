@@ -1,0 +1,8 @@
+lex gram.l
+gcc lex.yy.c -ll
+./a.out
+
+begin
+hello123
+12art
+if
