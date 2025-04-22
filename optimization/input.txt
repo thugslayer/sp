@@ -1,0 +1,12 @@
+gcc opt.c -o opt
+./opt
+
+no. of values: 4
+left:x
+  right:a*b
+left:y
+  right:a+b
+left:z
+  right:x+a
+left:w
+  right:a*b+4
