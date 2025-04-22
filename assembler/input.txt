@@ -1,0 +1,2 @@
+gcc pass.c -o pass
+./pass
