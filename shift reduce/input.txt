@@ -1,0 +1,6 @@
+gcc sr.c -o sr
+./sr
+
+enter string: id+id*id #accpeted
+
+enter string: id+id*id) #rejected
